@@ -1,0 +1,10 @@
+[Unit]
+Description=fcpi
+
+[Service]
+Type=simple
+ExecStart=/home/pi/fcpi/fcpi.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
